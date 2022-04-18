@@ -1,0 +1,57 @@
+.trip_wraper{
+    padding: 50px 0;
+    background-color: hsl(0, 27%, 98%) ;
+}
+
+.trip_wraper img{
+    width: 400px;
+    height: 400px;
+}
+
+.trip_wraper .carousel-item{
+    align-items: center;
+    text-align: center;
+}
+
+.trip_wraper .carousel-item ul{
+    width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.trip_wraper .trip-card{
+    background-color: hsl(0, 27%, 98%) ;
+    box-shadow: 0 1px 20px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 45px 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #282b2f;
+}
+
+.trip_wraper .trip-card:hover{
+    box-shadow: 0 2px 29px rgb(0 0 0 / 50%);
+    z-index: 5;
+    cursor: pointer;
+}
+
+.trip_wraper .trip_rate{
+        font-size: 34px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        line-height: 1.25;
+}
+
+.trip_wraper .trip-card strike{
+    color: #798089;
+}
+
+.btn--primary:hover{
+    font-size: 30px;
+    transition: all 0.6s ease-in-out;
+}
+

@@ -1,0 +1,27 @@
+.packages-wrapper{
+    padding:100px 0;
+}
+
+.packages-wrapper img{
+    width: 95%;
+}
+
+.packages-wrapper .package-card{
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    box-shadow: 0 5px 40px rgb(0 0 0 / 15%);
+}
+
+
+.packages-wrapper .package-title{
+    font-weight: 800;
+}
+
+.packages-wrapper .package-text{
+    color: #798089;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
